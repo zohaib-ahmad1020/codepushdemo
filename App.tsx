@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    backgroundColor: "#F5FCFF",
+    backgroundColor: "#575757",
     paddingTop: 50
   },
   image: {
@@ -155,7 +155,11 @@ const styles = StyleSheet.create({
  * different check frequency, such as ON_APP_START, for a 'hands-off' approach where CodePush.sync() does not
  * need to be explicitly called. All options of CodePush.sync() are also available in this decorator.
  */
-let codePushOptions = { checkFrequency: CodePush.CheckFrequency.MANUAL };
+// let codePushOptions = { checkFrequency: CodePush.CheckFrequency.MANUAL };
+let codePushOptions = {
+  checkFrequency: CodePush.CheckFrequency.ON_APP_START,
+  installMode: CodePush.InstallMode.ON_NEXT_RESTART,
+};
 
 App = CodePush(codePushOptions)(App);
 
