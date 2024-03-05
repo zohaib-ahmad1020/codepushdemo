@@ -106,6 +106,7 @@ android {
 
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
+    //implementation(':react-native-code-push')
     implementation("com.facebook.react:react-android")
     implementation("com.facebook.react:flipper-integration")
 
@@ -115,5 +116,6 @@ dependencies {
         implementation jscFlavor
     }
 }
-
+//apply from: "../../node_modules/react-native/react.gradle"
+apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)

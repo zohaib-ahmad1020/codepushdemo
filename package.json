@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "codepush:stag:release":"appcenter codepush release-react -a zohaib-tentwenty.me/CodePushAndroid -d Staging"
+    "codepush:stag":"appcenter codepush release-react -a zohaib-tentwenty.me/CodePushAndroid -d Staging"
   },
   "dependencies": {
     "appcenter": "5.0.1",

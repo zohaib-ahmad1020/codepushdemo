@@ -11,11 +11,20 @@ import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 import com.facebook.react.defaults.DefaultReactNativeHost
 import com.facebook.react.flipper.ReactNativeFlipper
 import com.facebook.soloader.SoLoader
-
+// 1. Import the plugin class.
+import com.microsoft.codepush.react.CodePush
 class MainApplication : Application(), ReactApplication {
 
   override val reactNativeHost: ReactNativeHost =
       object : DefaultReactNativeHost(this) {
+
+        // 2. Override the getJSBundleFile method in order to let
+        // the CodePush runtime determine where to get the JS
+        // bundle location from on each app start
+        override fun getJSBundleFile(): String {
+            return CodePush.getJSBundleFile() 
+        }
+
         override fun getPackages(): List<ReactPackage> =
             PackageList(this).packages.apply {
               // Packages that cannot be autolinked yet can be added manually here, for example:

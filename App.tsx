@@ -97,7 +97,7 @@ class App extends Component<{}> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to CodePush OTA Updates!
+          Welcome to CodePush OTA!
         </Text>
         <TouchableOpacity onPress={this.sync.bind(this)}>
           <Text style={styles.syncButton}>Press for background sync</Text>
