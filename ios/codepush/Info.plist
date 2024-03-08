@@ -10,6 +10,8 @@
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CodePushDeploymentKey</key>
+	<string>i89VPH2-Va0HeFuiT7c_ndELrln2jIc9Nt5gW</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

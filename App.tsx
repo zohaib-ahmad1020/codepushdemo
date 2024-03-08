@@ -99,6 +99,9 @@ class App extends Component<{}> {
         <Text style={styles.welcome}>
           Welcome to CodePush OTA!
         </Text>
+        <Text style={styles.welcome}>
+          Update -1
+        </Text>
         <TouchableOpacity onPress={this.sync.bind(this)}>
           <Text style={styles.syncButton}>Press for background sync</Text>
         </TouchableOpacity>
@@ -123,7 +126,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    backgroundColor: "#575757",
+    backgroundColor: "white",
     paddingTop: 50
   },
   image: {
@@ -157,8 +160,9 @@ const styles = StyleSheet.create({
  */
 // let codePushOptions = { checkFrequency: CodePush.CheckFrequency.MANUAL };
 let codePushOptions = {
+  updateDialog: true,
   checkFrequency: CodePush.CheckFrequency.ON_APP_START,
-  installMode: CodePush.InstallMode.ON_NEXT_RESTART,
+  installMode: CodePush.InstallMode.IMMEDIATE,
 };
 
 App = CodePush(codePushOptions)(App);
