@@ -8,7 +8,9 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "codepush:stag":"appcenter codepush release-react -a zohaib-tentwenty.me/CodePushAndroid -d Staging"
+    "codepush:stag:android": "appcenter codepush release-react -a zohaib-tentwenty.me/CodePushAndroid -d Staging",
+    "codepush:stag:ios": "appcenter codepush release-react -a zohaib-tentwenty.me/CodePushIos -d Staging",
+    "pods": "cd ios && pod install && cd .."
   },
   "dependencies": {
     "appcenter": "5.0.1",
@@ -16,7 +18,8 @@
     "appcenter-crashes": "5.0.1",
     "react": "18.2.0",
     "react-native": "0.73.5",
-    "react-native-code-push": "^8.2.1"
+    "react-native-code-push": "^8.2.1",
+    "react-native-config": "^1.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 
 import CodePush from "react-native-code-push";
+import Config from 'react-native-config'
 
 class App extends Component<{}> {
   constructor() {
@@ -100,7 +101,10 @@ class App extends Component<{}> {
           Welcome to CodePush OTA!
         </Text>
         <Text style={styles.welcome}>
-          Update -3
+          Update - 13
+        </Text>
+        <Text style={styles.welcome}>
+        {Config.ENV}
         </Text>
         <TouchableOpacity onPress={this.sync.bind(this)}>
           <Text style={styles.syncButton}>Press for background sync</Text>
@@ -135,6 +139,7 @@ const styles = StyleSheet.create({
     height: 365 * (Dimensions.get("window").width - 100) / 651,
   },
   messages: {
+    color: "white",
     marginTop: 30,
     textAlign: "center",
   },

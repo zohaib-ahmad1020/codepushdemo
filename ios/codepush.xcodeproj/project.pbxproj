@@ -12,6 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		153B0AFF5995DFCCA547C530 /* libPods-codepush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FB410B51399683A49E86D9 /* libPods-codepush.a */; };
 		5AD6171DAB655D888C0FA88F /* libPods-codepush-codepushDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FDFD6EE28FD0E8760158D1 /* libPods-codepush-codepushDev.a */; };
 		7699B88040F8A987B510C191 /* libPods-codepush-codepushTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-codepush-codepushTests.a */; };
 		7EA71DFA2B9B1C3F00894980 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA71DF92B9B1C3F00894980 /* AppCenter-Config.plist */; };
@@ -25,8 +26,6 @@
 		7EA71E3C2B9B263C00894980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		7EA71E3D2B9B263C00894980 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		7EA71E3E2B9B263C00894980 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA71DF92B9B1C3F00894980 /* AppCenter-Config.plist */; };
-		7EA71E492B9B26DC00894980 /* dev-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA71E482B9B26DC00894980 /* dev-info.plist */; };
-		7EA71E4B2B9B26F900894980 /* stagin-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA71E4A2B9B26F900894980 /* stagin-info.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9B2961EC9975FB02EAD6BA15 /* libPods-codepush-codepushStagging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B22367C09CBA530784A658F6 /* libPods-codepush-codepushStagging.a */; };
 /* End PBXBuildFile section */
@@ -52,6 +51,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = codepush/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = codepush/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-codepush-codepushTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-codepush-codepushTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FB410B51399683A49E86D9 /* libPods-codepush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-codepush.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-codepush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush.debug.xcconfig"; path = "Target Support Files/Pods-codepush/Pods-codepush.debug.xcconfig"; sourceTree = "<group>"; };
 		53FDFD6EE28FD0E8760158D1 /* libPods-codepush-codepushDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-codepush-codepushDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5709B34CF0A7D63546082F79 /* Pods-codepush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush.release.xcconfig"; path = "Target Support Files/Pods-codepush/Pods-codepush.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,8 +61,6 @@
 		7EA71E332B9B263700894980 /* codepush dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "codepush dev-Info.plist"; path = "/Users/zohaibahmad/Desktop/misc/codepushdemo/ios/codepush dev-Info.plist"; sourceTree = "<absolute>"; };
 		7EA71E452B9B263C00894980 /* codepushStagging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codepushStagging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA71E462B9B263C00894980 /* codepush stagging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "codepush stagging-Info.plist"; path = "/Users/zohaibahmad/Desktop/misc/codepushdemo/ios/codepush stagging-Info.plist"; sourceTree = "<absolute>"; };
-		7EA71E482B9B26DC00894980 /* dev-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dev-info.plist"; sourceTree = "<group>"; };
-		7EA71E4A2B9B26F900894980 /* stagin-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stagin-info.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = codepush/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-codepush-codepushTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush-codepushTests.release.xcconfig"; path = "Target Support Files/Pods-codepush-codepushTests/Pods-codepush-codepushTests.release.xcconfig"; sourceTree = "<group>"; };
 		B22367C09CBA530784A658F6 /* libPods-codepush-codepushStagging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-codepush-codepushStagging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* (null) in Frameworks */,
+				153B0AFF5995DFCCA547C530 /* libPods-codepush.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,17 +145,9 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-codepush-codepushTests.a */,
 				53FDFD6EE28FD0E8760158D1 /* libPods-codepush-codepushDev.a */,
 				B22367C09CBA530784A658F6 /* libPods-codepush-codepushStagging.a */,
+				37FB410B51399683A49E86D9 /* libPods-codepush.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7EA71E472B9B269E00894980 /* PropertyList */ = {
-			isa = PBXGroup;
-			children = (
-				7EA71E482B9B26DC00894980 /* dev-info.plist */,
-				7EA71E4A2B9B26F900894980 /* stagin-info.plist */,
-			);
-			path = PropertyList;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -169,7 +160,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				7EA71E472B9B269E00894980 /* PropertyList */,
 				7EA71DF92B9B1C3F00894980 /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* codepush */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -358,7 +348,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EA71E492B9B26DC00894980 /* dev-info.plist in Resources */,
 				7EA71E292B9B263600894980 /* LaunchScreen.storyboard in Resources */,
 				7EA71E2A2B9B263600894980 /* Images.xcassets in Resources */,
 				7EA71E2B2B9B263600894980 /* AppCenter-Config.plist in Resources */,
@@ -371,7 +360,6 @@
 			files = (
 				7EA71E3C2B9B263C00894980 /* LaunchScreen.storyboard in Resources */,
 				7EA71E3D2B9B263C00894980 /* Images.xcassets in Resources */,
-				7EA71E4B2B9B26F900894980 /* stagin-info.plist in Resources */,
 				7EA71E3E2B9B263C00894980 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
