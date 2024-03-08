@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* codepushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* codepushTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-codepush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-codepush.a */; };
+		0C80B921A6F3F58F76C31292 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		5AD6171DAB655D888C0FA88F /* libPods-codepush-codepushDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FDFD6EE28FD0E8760158D1 /* libPods-codepush-codepushDev.a */; };
 		7699B88040F8A987B510C191 /* libPods-codepush-codepushTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-codepush-codepushTests.a */; };
 		7EA71DFA2B9B1C3F00894980 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA71DF92B9B1C3F00894980 /* AppCenter-Config.plist */; };
+		7EA71E242B9B263600894980 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		7EA71E252B9B263600894980 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7EA71E292B9B263600894980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		7EA71E2A2B9B263600894980 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		7EA71E2B2B9B263600894980 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA71DF92B9B1C3F00894980 /* AppCenter-Config.plist */; };
+		7EA71E372B9B263C00894980 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		7EA71E382B9B263C00894980 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7EA71E3C2B9B263C00894980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		7EA71E3D2B9B263C00894980 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		7EA71E3E2B9B263C00894980 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA71DF92B9B1C3F00894980 /* AppCenter-Config.plist */; };
+		7EA71E492B9B26DC00894980 /* dev-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA71E482B9B26DC00894980 /* dev-info.plist */; };
+		7EA71E4B2B9B26F900894980 /* stagin-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA71E4A2B9B26F900894980 /* stagin-info.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9B2961EC9975FB02EAD6BA15 /* libPods-codepush-codepushStagging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B22367C09CBA530784A658F6 /* libPods-codepush-codepushStagging.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +53,23 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = codepush/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-codepush-codepushTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-codepush-codepushTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-codepush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush.debug.xcconfig"; path = "Target Support Files/Pods-codepush/Pods-codepush.debug.xcconfig"; sourceTree = "<group>"; };
+		53FDFD6EE28FD0E8760158D1 /* libPods-codepush-codepushDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-codepush-codepushDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5709B34CF0A7D63546082F79 /* Pods-codepush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush.release.xcconfig"; path = "Target Support Files/Pods-codepush/Pods-codepush.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-codepush-codepushTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush-codepushTests.debug.xcconfig"; path = "Target Support Files/Pods-codepush-codepushTests/Pods-codepush-codepushTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-codepush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-codepush.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA71DF92B9B1C3F00894980 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
+		7EA71E322B9B263600894980 /* codepushDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codepushDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA71E332B9B263700894980 /* codepush dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "codepush dev-Info.plist"; path = "/Users/zohaibahmad/Desktop/misc/codepushdemo/ios/codepush dev-Info.plist"; sourceTree = "<absolute>"; };
+		7EA71E452B9B263C00894980 /* codepushStagging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codepushStagging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA71E462B9B263C00894980 /* codepush stagging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "codepush stagging-Info.plist"; path = "/Users/zohaibahmad/Desktop/misc/codepushdemo/ios/codepush stagging-Info.plist"; sourceTree = "<absolute>"; };
+		7EA71E482B9B26DC00894980 /* dev-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dev-info.plist"; sourceTree = "<group>"; };
+		7EA71E4A2B9B26F900894980 /* stagin-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stagin-info.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = codepush/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-codepush-codepushTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush-codepushTests.release.xcconfig"; path = "Target Support Files/Pods-codepush-codepushTests/Pods-codepush-codepushTests.release.xcconfig"; sourceTree = "<group>"; };
+		B22367C09CBA530784A658F6 /* libPods-codepush-codepushStagging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-codepush-codepushStagging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25E04F8FE8473DF41D30C5A /* Pods-codepush-codepushStagging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush-codepushStagging.debug.xcconfig"; path = "Target Support Files/Pods-codepush-codepushStagging/Pods-codepush-codepushStagging.debug.xcconfig"; sourceTree = "<group>"; };
+		CD42DDC8A5BAF2980B80B426 /* Pods-codepush-codepushStagging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush-codepushStagging.release.xcconfig"; path = "Target Support Files/Pods-codepush-codepushStagging/Pods-codepush-codepushStagging.release.xcconfig"; sourceTree = "<group>"; };
+		D63769B96FF5B2533DBA89D2 /* Pods-codepush-codepushDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush-codepushDev.debug.xcconfig"; path = "Target Support Files/Pods-codepush-codepushDev/Pods-codepush-codepushDev.debug.xcconfig"; sourceTree = "<group>"; };
+		D9E7D204F310C4C9890672CA /* Pods-codepush-codepushDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush-codepushDev.release.xcconfig"; path = "Target Support Files/Pods-codepush-codepushDev/Pods-codepush-codepushDev.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -61,7 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-codepush.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA71E262B9B263600894980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD6171DAB655D888C0FA88F /* libPods-codepush-codepushDev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA71E392B9B263C00894980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2961EC9975FB02EAD6BA15 /* libPods-codepush-codepushStagging.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,10 +143,20 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-codepush.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-codepush-codepushTests.a */,
+				53FDFD6EE28FD0E8760158D1 /* libPods-codepush-codepushDev.a */,
+				B22367C09CBA530784A658F6 /* libPods-codepush-codepushStagging.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EA71E472B9B269E00894980 /* PropertyList */ = {
+			isa = PBXGroup;
+			children = (
+				7EA71E482B9B26DC00894980 /* dev-info.plist */,
+				7EA71E4A2B9B26F900894980 /* stagin-info.plist */,
+			);
+			path = PropertyList;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -118,6 +169,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				7EA71E472B9B269E00894980 /* PropertyList */,
 				7EA71DF92B9B1C3F00894980 /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* codepush */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -125,6 +177,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				7EA71E332B9B263700894980 /* codepush dev-Info.plist */,
+				7EA71E462B9B263C00894980 /* codepush stagging-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -136,6 +190,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* codepush.app */,
 				00E356EE1AD99517003FC87E /* codepushTests.xctest */,
+				7EA71E322B9B263600894980 /* codepushDev.app */,
+				7EA71E452B9B263C00894980 /* codepushStagging.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +203,10 @@
 				5709B34CF0A7D63546082F79 /* Pods-codepush.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-codepush-codepushTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-codepush-codepushTests.release.xcconfig */,
+				D63769B96FF5B2533DBA89D2 /* Pods-codepush-codepushDev.debug.xcconfig */,
+				D9E7D204F310C4C9890672CA /* Pods-codepush-codepushDev.release.xcconfig */,
+				C25E04F8FE8473DF41D30C5A /* Pods-codepush-codepushStagging.debug.xcconfig */,
+				CD42DDC8A5BAF2980B80B426 /* Pods-codepush-codepushStagging.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -196,6 +256,48 @@
 			productReference = 13B07F961A680F5B00A75B9A /* codepush.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7EA71E212B9B263600894980 /* codepushDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA71E2F2B9B263600894980 /* Build configuration list for PBXNativeTarget "codepushDev" */;
+			buildPhases = (
+				7EA71E222B9B263600894980 /* [CP] Check Pods Manifest.lock */,
+				7EA71E232B9B263600894980 /* Sources */,
+				7EA71E262B9B263600894980 /* Frameworks */,
+				7EA71E282B9B263600894980 /* Resources */,
+				7EA71E2C2B9B263600894980 /* Bundle React Native code and images */,
+				7EA71E2D2B9B263600894980 /* [CP] Embed Pods Frameworks */,
+				7EA71E2E2B9B263600894980 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = codepushDev;
+			productName = codepush;
+			productReference = 7EA71E322B9B263600894980 /* codepushDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EA71E342B9B263C00894980 /* codepushStagging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA71E422B9B263C00894980 /* Build configuration list for PBXNativeTarget "codepushStagging" */;
+			buildPhases = (
+				7EA71E352B9B263C00894980 /* [CP] Check Pods Manifest.lock */,
+				7EA71E362B9B263C00894980 /* Sources */,
+				7EA71E392B9B263C00894980 /* Frameworks */,
+				7EA71E3B2B9B263C00894980 /* Resources */,
+				7EA71E3F2B9B263C00894980 /* Bundle React Native code and images */,
+				7EA71E402B9B263C00894980 /* [CP] Embed Pods Frameworks */,
+				7EA71E412B9B263C00894980 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = codepushStagging;
+			productName = codepush;
+			productReference = 7EA71E452B9B263C00894980 /* codepushStagging.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -228,6 +330,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* codepush */,
 				00E356ED1AD99517003FC87E /* codepushTests */,
+				7EA71E212B9B263600894980 /* codepushDev */,
+				7EA71E342B9B263C00894980 /* codepushStagging */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +351,28 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				7EA71DFA2B9B1C3F00894980 /* AppCenter-Config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA71E282B9B263600894980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA71E492B9B26DC00894980 /* dev-info.plist in Resources */,
+				7EA71E292B9B263600894980 /* LaunchScreen.storyboard in Resources */,
+				7EA71E2A2B9B263600894980 /* Images.xcassets in Resources */,
+				7EA71E2B2B9B263600894980 /* AppCenter-Config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA71E3B2B9B263C00894980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA71E3C2B9B263C00894980 /* LaunchScreen.storyboard in Resources */,
+				7EA71E3D2B9B263C00894980 /* Images.xcassets in Resources */,
+				7EA71E4B2B9B26F900894980 /* stagin-info.plist in Resources */,
+				7EA71E3E2B9B263C00894980 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +410,150 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-codepush/Pods-codepush-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA71E222B9B263600894980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-codepush-codepushDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA71E2C2B9B263600894980 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		7EA71E2D2B9B263600894980 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codepush-codepushDev/Pods-codepush-codepushDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codepush-codepushDev/Pods-codepush-codepushDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-codepush-codepushDev/Pods-codepush-codepushDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA71E2E2B9B263600894980 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codepush-codepushDev/Pods-codepush-codepushDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codepush-codepushDev/Pods-codepush-codepushDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-codepush-codepushDev/Pods-codepush-codepushDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA71E352B9B263C00894980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-codepush-codepushStagging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA71E3F2B9B263C00894980 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		7EA71E402B9B263C00894980 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codepush-codepushStagging/Pods-codepush-codepushStagging-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codepush-codepushStagging/Pods-codepush-codepushStagging-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-codepush-codepushStagging/Pods-codepush-codepushStagging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA71E412B9B263C00894980 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codepush-codepushStagging/Pods-codepush-codepushStagging-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codepush-codepushStagging/Pods-codepush-codepushStagging-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-codepush-codepushStagging/Pods-codepush-codepushStagging-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -401,6 +671,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7EA71E232B9B263600894980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA71E242B9B263600894980 /* AppDelegate.mm in Sources */,
+				7EA71E252B9B263600894980 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA71E362B9B263C00894980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA71E372B9B263C00894980 /* AppDelegate.mm in Sources */,
+				7EA71E382B9B263C00894980 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -510,6 +798,110 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = codepush;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		7EA71E302B9B263600894980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63769B96FF5B2533DBA89D2 /* Pods-codepush-codepushDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "codepush dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		7EA71E312B9B263600894980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E7D204F310C4C9890672CA /* Pods-codepush-codepushDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "codepush dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		7EA71E432B9B263C00894980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25E04F8FE8473DF41D30C5A /* Pods-codepush-codepushStagging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "codepush stagging-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		7EA71E442B9B263C00894980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD42DDC8A5BAF2980B80B426 /* Pods-codepush-codepushStagging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "codepush stagging-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -677,6 +1069,24 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA71E2F2B9B263600894980 /* Build configuration list for PBXNativeTarget "codepushDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA71E302B9B263600894980 /* Debug */,
+				7EA71E312B9B263600894980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA71E422B9B263C00894980 /* Build configuration list for PBXNativeTarget "codepushStagging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA71E432B9B263C00894980 /* Debug */,
+				7EA71E442B9B263C00894980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

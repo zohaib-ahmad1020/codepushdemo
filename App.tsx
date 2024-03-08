@@ -100,7 +100,7 @@ class App extends Component<{}> {
           Welcome to CodePush OTA!
         </Text>
         <Text style={styles.welcome}>
-          Update -1
+          Update -3
         </Text>
         <TouchableOpacity onPress={this.sync.bind(this)}>
           <Text style={styles.syncButton}>Press for background sync</Text>
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    backgroundColor: "white",
+    backgroundColor: "black",
     paddingTop: 50
   },
   image: {
@@ -139,17 +139,18 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   restartToggleButton: {
-    color: "blue",
+    color: "green",
     fontSize: 17
   },
   syncButton: {
-    color: "green",
+    color: "white",
     fontSize: 17
   },
   welcome: {
     fontSize: 20,
     textAlign: "center",
-    margin: 20
+    margin: 20,
+    color: 'white'
   },
 });
 
