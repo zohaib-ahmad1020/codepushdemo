@@ -7,11 +7,14 @@ import {
   Text,
   TouchableOpacity,
   View,
+
 } from 'react-native';
 
 import CodePush, { LocalPackage } from 'react-native-code-push';
 import Config from 'react-native-config';
 
+import {API_HOST} from "@dev"
+const imgSource = require('./assets/image.png')
 interface AppState {
   syncMessage: string | null;
   progress: { receivedBytes: number; totalBytes: number } | null;
@@ -108,9 +111,14 @@ class App extends Component<{}, AppState> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to CodePush OTA!</Text>
-        <Text style={styles.welcome}>Update - 16</Text>
-        <Text style={styles.welcome}>{JSON.stringify(Config, null, 3)}</Text>
-        <Text style={styles.welcome}>{JSON.stringify(Config.API_HOST, null, 3)}</Text>
+        <Image 
+        source={imgSource}
+        style={styles.image}
+        />
+        <Text style={styles.welcome}>Update - 23</Text>
+        <Text style={styles.welcome}>API_HOST: {API_HOST}</Text>
+        {/* <Text style={styles.welcome}>{JSON.stringify(Config, null, 3)}</Text>
+        <Text style={styles.welcome}>{JSON.stringify(Config.API_HOST, null, 3)}</Text> */}
         <TouchableOpacity onPress={this.sync.bind(this)}>
           <Text style={styles.syncButton}>Press for background sync</Text>
         </TouchableOpacity>
@@ -142,8 +150,8 @@ const styles = StyleSheet.create({
   },
   image: {
     margin: 30,
-    width: Dimensions.get('window').width - 100,
-    height: (365 * (Dimensions.get('window').width - 100)) / 651,
+    width: 100,
+    height:100,
   },
   messages: {
     color: 'white',

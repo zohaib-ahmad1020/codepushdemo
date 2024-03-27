@@ -10,7 +10,9 @@
     "test": "jest",
     "codepush:stag:android": "appcenter codepush release-react -a zohaib-tentwenty.me/CodePushAndroid -d Staging",
     "codepush:stag:ios": "appcenter codepush release-react -a zohaib-tentwenty.me/CodePushIos -d Staging",
-    "pods": "cd ios && pod install && cd .."
+    "pods": "cd ios && pod install && cd ..",
+    "start:dev": "APP_ENV_DEV=dev npx react-native start",
+    "start:stag": "APP_ENV_STAG=stag npx react-native start"
   },
   "dependencies": {
     "appcenter": "5.0.1",
@@ -35,6 +37,7 @@
     "eslint": "^8.19.0",
     "jest": "^29.6.3",
     "prettier": "2.8.8",
+    "react-native-dotenv": "^3.4.11",
     "react-test-renderer": "18.2.0",
     "typescript": "5.0.4"
   },
